@@ -12,7 +12,7 @@ from time import time
 
 class Data(object):
     def __init__(self, path, batch_size):
-        path = './drive/MyDrive/neural_graph_collaborative_filtering/NGCF/Data/amazon-book/'
+        path = './drive/MyDrive/neural_graph_collaborative_filtering/NGCF/Data/amazon-book'
         self.path = path
         self.batch_size = batch_size
         
